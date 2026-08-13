@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Spider Noticias</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Spider Noticias</h1>
+        <p>Todo sobre Spider-Man</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#peliculas">Películas</a>
+        <a href="#comics">Comics</a>
+        <a href="#suscribirse">Suscribirse</a>
+    </nav>
+
+    <main>
+
+        <section id="inicio">
+
+            <h2>Inicio</h2>
+
+            <p>
+                Bienvenido a Spider Noticias, una página dedicada
+                al universo de Spider-Man.
+            </p>
+
+            <p>
+                Aquí podrás encontrar información sobre sus películas,
+                cómics y novedades.
+            </p>
+
+            <button onclick="mostrarInicio()">
+                Ver más
+            </button>
+
+            <p id="inicioInfo" class="info">
+                Spider-Man es uno de los personajes más conocidos de Marvel.
+                A través de los años ha aparecido en cómics, películas,
+                series y videojuegos.
+            </p>
+
+        </section>
+
+        <section id="peliculas">
+
+            <h2>Películas</h2>
+
+            <div class="peliculas">
+
+                <div class="pelicula">
+                    <img src="https://image.tmdb.org/t/p/w500/rweIrveL43TaxUN0akQEaAXL6x0.jpg">
+
+                    <h3>Spider-Man</h3>
+                    <p>2002</p>
+
+                    <button onclick="mostrarInfo('info1')">
+                        Ver más
+                    </button>
+
+                    <div id="info1" class="info">
+                        <p><b>Fecha de estreno:</b> 3 de mayo de 2002</p>
+                        <p><b>Director:</b> Sam Raimi</p>
+                    </div>
+                </div>
+
+
+                <div class="pelicula">
+                    <img src="https://i.redd.it/sam-raimi-spider-man-trilogy-genuinely-has-the-most-iconic-v0-4vr7wi24d7yg1.jpg?width=1199&format=pjpg&auto=webp&s=19fe86e425ab588a5c50463746826b7a3da68d5b">
+
+                    <h3>Spider-Man 2</h3>
+                    <p>2004</p>
+
+                    <button onclick="mostrarInfo('info2')">
+                        Ver más
+                    </button>
+
+                    <div id="info2" class="info">
+                        <p><b>Fecha de estreno:</b> 30 de junio de 2004</p>
+                        <p><b>Director:</b> Sam Raimi</p>
+                    </div>
+                </div>
+
+
+                <div class="pelicula">
+                    <img src="https://m.media-amazon.com/images/M/MV5BODE2NzNhMDctYjUzMC00Y2M5LWI2Y2EtODJkZTFjN2Y5ODlmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg">
+
+                    <h3>Spider-Man 3</h3>
+                    <p>2007</p>
+
+                    <button onclick="mostrarInfo('info3')">
+                        Ver más
+                    </button>
+
+                    <div id="info3" class="info">
+                        <p><b>Fecha de estreno:</b> 4 de mayo de 2007</p>
+                        <p><b>Director:</b> Sam Raimi</p>
+                    </div>
+                </div>
+
+
+                <div class="pelicula">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMjMyOTM4MDMxNV5BMl5BanBnXkFtZTcwNjIyNzExOA@@._V1_.jpg">
+
+                    <h3>The Amazing Spider-Man</h3>
+                    <p>2012</p>
+
+                    <button onclick="mostrarInfo('info4')">
+                        Ver más
+                    </button>
+
+                    <div id="info4" class="info">
+                        <p><b>Fecha de estreno:</b> 3 de julio de 2012</p>
+                        <p><b>Director:</b> Marc Webb</p>
+                    </div>
+                </div>
+
+
+                <div class="pelicula">
+                    <img src="https://sm.ign.com/t/ign_latam/movie/t/the-amazin/the-amazing-spider-man-2-theater_7qvu.1200.jpg">
+
+                    <h3>The Amazing Spider-Man 2</h3>
+                    <p>2014</p>
+
+                    <button onclick="mostrarInfo('info5')">
+                        Ver más
+                    </button>
+
+                    <div id="info5" class="info">
+                        <p><b>Fecha de estreno:</b> 2 de mayo de 2014</p>
+                        <p><b>Director:</b> Marc Webb</p>
+                    </div>
+                </div>
+
+
+                <div class="pelicula">
+                    <img src="https://image.tmdb.org/t/p/w500/c24sv2weTHPsmDa7jEMN0m2P3RT.jpg">
+
+                    <h3>Spider-Man: Homecoming</h3>
+                    <p>2017</p>
+
+                    <button onclick="mostrarInfo('info6')">
+                        Ver más
+                    </button>
+
+                    <div id="info6" class="info">
+                        <p><b>Fecha de estreno:</b> 7 de julio de 2017</p>
+                        <p><b>Director:</b> Jon Watts</p>
+                    </div>
+                </div>
+
+                <div class="pelicula">
+
+                    <img src="https://image.tmdb.org/t/p/w500/4q2NNj4S5dG2RLF9CpXsej7yXl.jpg">
+
+                    <h3>Spider-Man: Far From Home</h3>
+
+                    <p>2019</p>
+
+                    <button onclick="mostrarInfo('info7')">
+                        Ver más
+                    </button>
+
+                    <div id="info7" class="info">
+                        <p><b>Estreno:</b> 2 de julio de 2019</p>
+                        <p><b>Director:</b> Jon Watts</p>
+                    </div>
+
+                </div>
+
+                <div class="pelicula">
+
+                    <img src="https://image.tmdb.org/t/p/w500/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg">
+
+                    <h3>Spider-Man: No Way Home</h3>
+
+                    <p>2021</p>
+
+                    <button onclick="mostrarInfo('info8')">
+                        Ver más
+                    </button>
+
+                    <div id="info8" class="info">
+                        <p><b>Estreno:</b> 17 de diciembre de 2021</p>
+                        <p><b>Director:</b> Jon Watts</p>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+        <section id="comics">
+
+            <h2>Comics</h2>
+
+            <p>
+                Algunas de las portadas más conocidas del personaje.
+            </p>
+
+            <div class="comics">
+
+                <div class="comic">
+                    <img src="https://static.wikia.nocookie.net/spiderman/images/e/ef/Amazing_Fantasy_Vol_1_15.png/revision/latest?cb=20190315162328&path-prefix=es">
+
+                    <h3>Amazing Fantasy #15</h3>
+
+                    <p>
+                        Primera aparición de Spider-Man.
+                    </p>
+                </div>
+
+
+                <div class="comic">
+                    <img src="https://cdn.marvel.com/u/prod/marvel/i/mg/d/40/5196582d03800/detail.jpg">
+
+                    <h3>The Amazing Spider-Man #1</h3>
+
+                    <p>
+                        Una de las primeras historias propias del personaje.
+                    </p>
+                </div>
+
+
+                <div class="comic">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/9/96/Ultimate_Spider-Man_%28October_2000%29_-1.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original">
+
+                    <h3>Ultimate Spider-Man</h3>
+
+                    <p>
+                        Una versión moderna del origen del personaje.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="suscribirse" class="suscripcion">
+
+            <h2>Suscríbete para mas noticias</h2>
+
+            <p>
+                Regístrate para recibir noticias y novedades
+                sobre Spider-Man.
+            </p>
+
+            <form id="formulario">
+
+                <label for="nombre">Nombre:</label>
+
+                <input
+                    type="text"
+                    id="nombre"
+                    placeholder="Escribe tu nombre"
+                    required
+                >
+
+
+                <label for="correo">Correo electrónico:</label>
+
+                <input
+                    type="email"
+                    id="correo"
+                    placeholder="ejemplo@correo.com"
+                >
+
+
+                <label for="mensaje">Comentario:</label>
+
+                <textarea
+                    id="mensaje"
+                    placeholder="Escribe un comentario"
+                ></textarea>
+
+
+                <button type="submit">
+                    Suscribirme
+                </button>
+
+            </form>
+
+            <p id="mensajeSuscripcion"></p>
+
+        </section>
+
+    </main>
+
+
+    <script>
+
+        function mostrarInfo(id) {
+
+            let elemento = document.getElementById(id);
+
+            if (elemento.style.display === "block") {
+                elemento.style.display = "none";
+            } else {
+                elemento.style.display = "block";
+            }
+
+        }
+
+
+        function mostrarInicio() {
+
+            let elemento = document.getElementById("inicioInfo");
+
+            if (elemento.style.display === "block") {
+                elemento.style.display = "none";
+            } else {
+                elemento.style.display = "block";
+            }
+
+        }
+
+
+        document.getElementById("formulario").addEventListener("submit", function(event) {
+
+            event.preventDefault();
+
+            const nombre = document.getElementById("nombre").value;
+
+            document.getElementById("mensajeSuscripcion").innerHTML =
+                "¡Gracias por suscribirte, " + nombre + "! 🕷️";
+
+            document.getElementById("formulario").reset();
+
+        });
+
+    </script>
+
+</body>
+</html>
